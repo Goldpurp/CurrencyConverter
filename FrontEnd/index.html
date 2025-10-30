@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GoldPurp Rate Converter App</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="transfer-container">
+        <h3 class="header">GoldPurp Rate Converter</h3>
+
+        <div class="card">
+            <form id="gbp-section">
+                <div class="label">Enter GBP value</div>
+                <div class="amount-row">
+                    <input type="number" name="gbp" class="amount-input-1" />
+
+                    <div class="input-group">
+                        <p class="input-label">From</p>
+                        <div class="select-wrapper">
+                            <img src="https://flagcdn.com/w40/gb.png" alt="GBP" class="flag-icon" />
+                            <span>GBP</span>
+                        </div>
+                    </div>
+                </div>
+            </form>
+
+            <div class="divider">
+                <div class="line"></div>
+                <div class="info">
+                    <div class="rate">Rate: <span>1 GBP ≈ <span id="currentRate"> </span> NGN</span></div>
+                </div>
+                <div class="line"></div>
+            </div>
+
+            <form id="ngn-section">
+                <div class="label">Enter NGN value</div>
+                <div class="amount-row">
+                    <input type="number" name="ngn" class="amount-input-2" />
+                    <div class="input-group">
+                        <p class="input-label">To</p>
+                        <div class="select-wrapper">
+                            <img src="https://flagcdn.com/w40/ng.png" alt="GBP" class="flag-icon" />
+                            <span>NGN</span>
+                        </div>
+                    </div>
+                </div>
+            </form>
+
+            <div class="info-box">
+                <p>You can convert to niara and naira from to pounds</p>
+            </div>
+
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
